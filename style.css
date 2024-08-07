@@ -1,0 +1,92 @@
+/* ------------------------------------ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalnia+Glaze&family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    font-family: "Mooli", sans-serif;
+}
+
+.card__title {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    flex-basis: content;
+    flex-grow: 1;
+}
+
+.card__title h1 {
+    color: #00D26A;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+
+
+.card__information{
+    display:flex;
+    flex-wrap: wrap; 
+    gap:20px;
+    justify-content: center;
+}
+
+.card__third,
+.card__second,
+.card__first{
+    justify-content: center;
+    background-color: black;
+    color: #00D26A;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.card__third:hover,
+.card__second:hover,
+.card__first:hover{
+
+    color:white;
+    padding: 52px;
+    opacity: 0.9;
+    transition: 0.5s;
+    margin: 22px;
+    box-shadow: #00D26A 4px 5px;
+
+}
+
+.card__details {
+    list-style-type: none;
+    font-weight: 900;
+    line-height: 50px;
+    text-wrap: nowrap;
+    color: white;
+    text-align: left;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 30px;
+    margin: 20px;
+}
+.card__details:hover{
+    color: #00D26A;
+    margin: 22px;
+    opacity: 0.8;
+    
+}
+.choose__music{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00D26A;
+    
+}
+.choose__music:hover{
+    opacity: .8;
+    transition: .5s;
+   color: white;
+}
